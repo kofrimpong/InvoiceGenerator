@@ -1,0 +1,739 @@
+2016/11/11 17:57:42 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 17:57:42 [error] [exception.CHttpException.500] exception 'CHttpException' with message '<div class="errorSummary"><p>Please fix the following input errors:</p>
+<ul>
+<li>Name cannot be blank.</li>
+<li>Quantity cannot be blank.</li>
+<li>Unit Cost cannot be blank.</li>
+<li>Description cannot be blank.</li>
+</ul></div>' in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php:42
+Stack trace:
+#0 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#1 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#5 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#7 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 17:59:18 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 17:59:18 [error] [php] Undefined variable: tax (F:\projects\InvoiceGenerator\protected\models\Order.php:93)
+Stack trace:
+#0 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\projects\framework1.1.7\web\CController.php(286): SiteController->runAction()
+#2 F:\projects\framework1.1.7\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\projects\framework1.1.7\web\CWebApplication.php(282): SiteController->run()
+#4 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#6 F:\projects\InvoiceGenerator\index.php(13): CWebApplication->run()
+REQUEST_URI=/InvoiceGenerator/
+in F:\projects\InvoiceGenerator\protected\models\Order.php (93)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (39)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 17:59:44 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 17:59:56 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:00:25 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:00:29 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:00:49 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:01:53 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (47)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:01:53 [error] [exception.CException] exception 'CException' with message 'Property "Order.paymentDetails" is not defined.' in F:\projects\framework1.1.7\base\CComponent.php:130
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\views\site\invoice.php(16): CComponent->__get('paymentDetails')
+#1 F:\projects\framework1.1.7\web\CBaseController.php(126): require('F:\\projects\\Inv...')
+#2 F:\projects\framework1.1.7\web\CBaseController.php(95): CBaseController->renderInternal('F:\\projects\\Inv...', Array, true)
+#3 F:\projects\framework1.1.7\web\CController.php(869): CBaseController->renderFile('F:\\projects\\Inv...', Array, true)
+#4 F:\projects\InvoiceGenerator\protected\models\Order.php(103): CController->renderPartial('invoice', Array, true)
+#5 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#6 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#11 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#13 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 18:02:50 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (48)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:02:50 [error] [exception.CException] exception 'CException' with message 'Property "Order.terms" is not defined.' in F:\projects\framework1.1.7\base\CComponent.php:130
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\views\site\invoice.php(66): CComponent->__get('terms')
+#1 F:\projects\framework1.1.7\web\CBaseController.php(126): require('F:\\projects\\Inv...')
+#2 F:\projects\framework1.1.7\web\CBaseController.php(95): CBaseController->renderInternal('F:\\projects\\Inv...', Array, true)
+#3 F:\projects\framework1.1.7\web\CController.php(869): CBaseController->renderFile('F:\\projects\\Inv...', Array, true)
+#4 F:\projects\InvoiceGenerator\protected\models\Order.php(104): CController->renderPartial('invoice', Array, true)
+#5 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#6 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#11 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#13 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 18:03:17 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (49)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:03:17 [error] [php] include(Dompdf.php): failed to open stream: No such file or directory (F:\projects\framework1.1.7\YiiBase.php:432)
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\models\Order.php(107): spl_autoload_call()
+#1 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#2 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams()
+#4 F:\projects\framework1.1.7\web\CController.php(286): SiteController->runAction()
+#5 F:\projects\framework1.1.7\web\CController.php(265): SiteController->runActionWithFilters()
+#6 F:\projects\framework1.1.7\web\CWebApplication.php(282): SiteController->run()
+#7 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController()
+#8 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#9 F:\projects\InvoiceGenerator\index.php(13): CWebApplication->run()
+REQUEST_URI=/InvoiceGenerator/
+in F:\projects\InvoiceGenerator\protected\models\Order.php (107)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (40)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:11:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (49)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:12:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (52)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:12:27 [error] [php] include(Cpdf.php): failed to open stream: No such file or directory (F:\projects\framework1.1.7\YiiBase.php:432)
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Adapter\CPDF.php(190): spl_autoload_call()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Dompdf.php(301): get_instance()
+#3 F:\projects\InvoiceGenerator\protected\models\Order.php(109): Dompdf\Dompdf->__construct()
+#4 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#5 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams()
+#7 F:\projects\framework1.1.7\web\CController.php(286): SiteController->runAction()
+#8 F:\projects\framework1.1.7\web\CController.php(265): SiteController->runActionWithFilters()
+#9 F:\projects\framework1.1.7\web\CWebApplication.php(282): SiteController->run()
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController()
+#11 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#12 F:\projects\InvoiceGenerator\index.php(13): CWebApplication->run()
+REQUEST_URI=/InvoiceGenerator/
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Adapter\CPDF.php (190)
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\CanvasFactory.php (57)
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Dompdf.php (301)
+2016/11/11 18:16:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (52)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:17:03 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:19:49 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:23:06 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:24:52 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:24:52 [error] [exception.LogicException] exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#2 F:\projects\framework1.1.7\YiiBase.php(432): include('F:\\projects\\Inv...')
+#3 [internal function]: YiiBase::autoload('Autoloader')
+#4 [internal function]: spl_autoload_call('Autoloader')
+#5 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#6 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#7 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#8 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#9 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#10 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#15 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#17 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#18 {main}
+
+Next exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(0): spl_autoload_register()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#3 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#4 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#5 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#12 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 18:27:49 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:28:53 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:28:56 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:29:47 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:30:08 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:30:47 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:31:12 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:31:31 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:31:56 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:31:56 [error] [exception.LogicException] exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#2 F:\projects\framework1.1.7\YiiBase.php(432): include('F:\\projects\\Inv...')
+#3 [internal function]: YiiBase::autoload('Autoloader')
+#4 [internal function]: spl_autoload_call('Autoloader')
+#5 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#6 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#7 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#8 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#9 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#10 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#15 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#17 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#18 {main}
+
+Next exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(0): spl_autoload_register()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Autoloader::register()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#3 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#4 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#5 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#12 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 18:33:06 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:33:06 [error] [exception.LogicException] exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Dompdf_Autoloader::register()
+#2 F:\projects\framework1.1.7\YiiBase.php(432): include('F:\\projects\\Inv...')
+#3 [internal function]: YiiBase::autoload('Autoloader')
+#4 [internal function]: spl_autoload_call('Autoloader')
+#5 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register(Array, true, true)
+#6 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Dompdf_Autoloader::register()
+#7 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#8 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#9 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#10 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#15 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#17 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#18 {main}
+
+Next exception 'LogicException' with message 'Passed array does not specify an existing static method (class 'Autoloader' not found)' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php:25
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(0): spl_autoload_register()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): Dompdf\Dompdf_Autoloader::register()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once('F:\\projects\\Inv...')
+#3 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once('F:\\projects\\Inv...')
+#4 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#5 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#12 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/11 18:33:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:33:27 [error] [php] include(Dompdf_Autoloader.php): failed to open stream: No such file or directory (F:\projects\framework1.1.7\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(25): spl_autoload_register()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php(9): register()
+#3 F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php(26): require_once()
+#4 F:\projects\InvoiceGenerator\protected\models\Order.php(106): require_once()
+#5 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(40): Order->sendPDF()
+#6 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams()
+#8 F:\projects\framework1.1.7\web\CController.php(286): SiteController->runAction()
+#9 F:\projects\framework1.1.7\web\CController.php(265): SiteController->runActionWithFilters()
+#10 F:\projects\framework1.1.7\web\CWebApplication.php(282): SiteController->run()
+#11 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController()
+#12 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#13 F:\projects\InvoiceGenerator\index.php(13): CWebApplication->run()
+REQUEST_URI=/InvoiceGenerator/
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php (25)
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Autoloader.php (9)
+in F:\projects\InvoiceGenerator\protected\vendors\dompdf\autoload.inc.php (26)
+2016/11/11 18:34:19 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:35:19 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (51)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:35:49 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:37:45 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:43:43 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:46:54 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:53:40 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:56:15 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 18:59:23 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 19:00:36 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 19:01:29 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/11 19:03:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:19:14 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:22:37 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:24:52 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:26:45 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:28:35 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:31:28 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:42:24 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:43:09 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:44:19 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:45:36 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:48:13 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:49:57 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:50:01 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:50:51 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:52:35 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:53:35 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/12 11:54:42 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:10:34 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:14:03 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:17:00 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:18:52 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:20:37 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:22:05 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 10:23:49 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (53)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:26:41 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:28:40 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:32:06 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:33:22 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:34:10 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:34:56 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (37)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:38:16 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (38)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:39:20 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (38)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:40:27 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (38)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:42:24 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (41)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:42:24 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (41)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:43:38 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:43:38 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:45:09 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:45:09 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:46:13 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:46:13 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:50:41 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:50:41 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:51:57 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:51:57 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:52:38 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:52:38 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:53:42 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:53:42 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:56:38 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:56:38 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:58:44 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 11:58:44 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:02:50 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:02:50 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:03:33 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:03:33 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:05:19 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:05:19 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:05:20 [error] [exception.Dompdf\Exception] exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\TableRow.php:66
+Stack trace:
+#0 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(806): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\AbstractFrameReflower.php(205): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(806): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\AbstractFrameReflower.php(205): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(806): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\AbstractFrameReflower.php(205): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#6 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(806): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#7 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Cellmap.php(643): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#8 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Cellmap.php(521): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\TableCell))
+#9 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Cellmap.php(521): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\TableRow))
+#10 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Cellmap.php(521): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\TableRowGroup))
+#11 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\Table.php(529): Dompdf\Cellmap->add_frame(Object(Dompdf\FrameDecorator\Table))
+#12 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\Table.php(407): Dompdf\FrameReflower\Table->get_min_max_width()
+#13 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(801): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#14 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\Block.php(738): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#15 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(801): Dompdf\FrameReflower\Block->reflow(NULL)
+#16 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameReflower\Page.php(133): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(801): Dompdf\FrameReflower\Page->reflow(NULL)
+#18 F:\projects\InvoiceGenerator\protected\vendors\dompdf\src\Dompdf.php(834): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#19 F:\projects\InvoiceGenerator\protected\models\Order.php(124): Dompdf\Dompdf->render()
+#20 F:\projects\InvoiceGenerator\protected\controllers\SiteController.php(45): Order->sendPDF()
+#21 F:\projects\framework1.1.7\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#22 F:\projects\framework1.1.7\web\CController.php(308): CInlineAction->runWithParams(Array)
+#23 F:\projects\framework1.1.7\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#24 F:\projects\framework1.1.7\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 F:\projects\framework1.1.7\web\CWebApplication.php(282): CController->run('')
+#26 F:\projects\framework1.1.7\web\CWebApplication.php(141): CWebApplication->runController('')
+#27 F:\projects\framework1.1.7\base\CApplication.php(185): CWebApplication->processRequest()
+#28 F:\projects\InvoiceGenerator\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/InvoiceGenerator/
+---
+2016/11/14 12:07:30 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:07:30 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:09:59 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:09:59 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:10:54 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:10:54 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (42)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:12:07 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:12:07 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:13:16 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:13:16 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:17:44 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:17:44 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:18:20 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:18:20 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:19:17 [warning] [application] Failed to set unsafe attribute "items" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
+2016/11/14 12:19:17 [warning] [application] Failed to set unsafe attribute "template" of "Order".
+in F:\projects\InvoiceGenerator\protected\models\Order.php (56)
+in F:\projects\InvoiceGenerator\protected\controllers\SiteController.php (43)
+in F:\projects\InvoiceGenerator\index.php (13)
